@@ -1,0 +1,271 @@
+\documentclass[letterpaper, 11pt]{article} 
+
+
+%Margin setup
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{-0.25in}
+\setlength{\textheight}{0in}
+\setlength{\textheight}{1in}
+\setlength{\topmargin}{-0.6in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.5in}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=purple,
+filecolor=magenta,      
+urlcolor=purple,
+}
+
+\newcommand*\foobar{\includegraphics[scale=0.05]{telephone.png}}
+\newcommand*\foolbar{\includegraphics[scale=0.05]{email.png}}
+
+\newcommand*{\LinkedIn}{\href{https://ca.linkedin.com/in/symphony-huang-1bb03aa9}{\textbf{Symphony Huang}}} 
+\newcommand{\Absender}[1][\normalsize]{\LinkedIn} 
+
+\newcommand*{\video}{\href{https://www.sfu.ca/physics/ugrad/prospective-students.html}{here}} 
+%\newcommand{\Absender}[2][\normalsize]{\video} 
+
+
+
+%\usepackage{fullpage}
+\usepackage{shading}
+\textheight=9.0in
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\usepackage[
+top    = 0.5in,
+bottom = 1in,
+left   = 1.5cm,
+right  = 2cm]{geometry}
+\pagestyle{plain}
+\usepackage{lastpage}
+
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+	\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-6pt}}
+
+%actually works
+\usepackage[explicit]{titlesec}
+\usepackage{xcolor}
+\usepackage{lipsum}
+
+
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}{}{0em}{\colorbox{beige}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{\thesection\quad#1}}}}
+\titleformat{name=\section,numberless}
+{\normalfont\Large\bfseries}{}{0em}{\colorbox{purple}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{\textcolor{white}{#1}}}}
+
+%----------------------------------------s--------------------------------------
+
+\begin{document}
+	
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{\LARGE Symphony Hsiao-Yuan Huang}\\
+	LinkedIn: \LinkedIn   &  email: hyh9@sfu.ca \\
+	 & cell: 778-835-0158
+	
+\end{tabular*}
+%----------------------------------------------------------------------------- 
+
+\vspace{3mm}
+\vspace{2mm}
+\hspace{2cm} \textit{``Basic research is what I am doing when I don't know what I am doing"}\\
+\hspace{12cm}-\textit{Wernher von Braun}
+
+\section*{Education}
+
+\begin{itemize}
+	\item
+	\ressubheading{McMaster University}{Hamilton, ON}{M.Sc. Physics}{Sep 2020 - Aug 2022 (expected)}
+	\item
+	\ressubheading{Simon Fraser University}{Burnaby, BC}{B.Sc. Physics Honours with Co-op}{Jan 2015 - May 2020 (expected)} \\
+		
+\end{itemize}
+
+\section*{Research Experience}
+\begin{itemize}
+\item
+\ressubheading{Donor Defects in Zinc Oxide for Quantum Information Applications}{}{Supervisior: S. Watkins, Dept. of Physics, SFU}{May 2020 - present}
+\begin{itemize}
+\resitem{Development of the growth of ZnO nanowires with low donor densities.}
+\resitem{Investigation of the growth conditions on the optical emission spectra of the nanowires.}
+\resitem{Characterization using primary low temperature photoluminescence and scanning electron microscopy.}
+\end{itemize}
+\item 
+\ressubheading{Undergraduate Honours Thesis}{}{Supervisior: E. Mun, Dept. of Physics, SFU}{Sep 2019 - Apr 2020}
+\begin{itemize}
+\resitem{Analyzed resistivity, magnetization, heat capacity and Hall coefficient data of single crystal SmCuAs$_2$ using Origin2016 to gain insight on its resistivity upturn.}
+\end{itemize}
+\item 
+\ressubheading{Visiting Student Researcher}{}{Supervisior: A. Luican-Mayer, Dept. of Physics, uOttawa}{May 2019 - Aug 2019}
+\begin{itemize}
+\resitem{Co-authored a physics education laboratory paper published in the European Journal of Physics. Used graphene field effect transistors to demonstrate concepts such as sheet resistance and carrier mobility in two dimensional materials.}
+\resitem{Assisted with final measurements and analysis for an experiment that demonstrates a novel method to fabricate sharp Scanning Tunnelling Microscope tips.}
+\end{itemize}
+\item 
+\ressubheading{Research and Development Co-op Student}{}{E-One Moli Energy (Canada) Limited}{May 2018 - Aug 2018}
+\begin{itemize}
+\resitem{Investigated a new binder material in anodes for lithium ion batteries. Designed and constructed the sample test cells, and analyzed various parameters to provide a thorough assessment of the binder.}
+\resitem{Examined the effect of cathode utilization on cycle life and mapped out their relationship within a certain cathode utilization range. Presented the insight on battery design for future experiments both orally and in a written report.}
+\end{itemize} 
+\item
+\ressubheading{Transmission of Helium Ions through Silicon}{}{Supervisor: K. L. Kavanagh, Dept. of Physics, SFU}{May 2017 - Aug 2017}
+\begin{itemize}
+\resitem{Received an Undergraduate Student Research Award (USRA) funded by NSERC.}
+\resitem{Characterized the milling and channeling phenomenon of helium ions through both
+amorphous and crystalline silicon.}
+
+\end{itemize}
+
+\end{itemize}
+
+\section*{Research Skills}
+\begin{description}
+\setlength\itemsep{0.0000005em}
+\item[Analysis:]
+MATLAB, C++, Fortran, Python, Origin2016, MS Office, Google Suite
+\item[Research:]
+Optical Microscopy, Electronics, Arduino Programming, Intermediate Optics, Report Writing
+\end{description}
+
+\section*{Publications}
+
+\begin{itemize}
+
+\item
+
+\textit{Microcontroller Monitored and Automated Electrochemical Etching of
+Tungsten Wires using Fixed Current for the Fabrication of Scanning
+Tunneling Microscopy Tips} R. Plumadore, F. Grenapin, R. Escorcio, \textbf{S. Huang},  A. Luican-Mayer (in progress) 
+
+\item
+
+\textit{Demonstrating the concepts of sheet resistance, field effect, and mobility of a semiconductor using graphene field effect transistors} K. Stecher, \textbf{S. Huang}, R. Escorcio, A. Luican-Mayer, European Journal of Physics \textbf{40}, 065501 (2019) 
+
+\item 
+\textit{Transmission Channeling in a Focussed Helium Ion Microscope} J. M. Wang, \textbf{S. Huang},
+C. Herrmann,
+F. Schiettekatte,
+and K. L. Kavanagh, Journal of Vacuum Science  Technology \textbf{B 36}, 021203 (2018) 
+
+\end{itemize}
+
+\section*{Awards}
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	McMaster Entrance Scholarship (\$6,000) & 2020\\
+	McMaster Graduate Scholarship (\$2,500) & 2020\\
+	SFU President's Honour Roll & 2020\\
+	SFU Undergraduate Student Research Award (USRA) (\$4,500) & 2020 \\
+	SFU Dean's Honour Roll and SFU Open Scholarship & 2019\\
+	SFU Undergraduate Student Research Award (VPR) (\$4,500) & 2017 \\
+	SFU Physics Outreach Award (\$100) & 2017\\
+	SFU President's and Dean's Honour Roll & 2016\\
+	SFU Dean's Academic Excellence Entrance Scholarship (\$12,000) & 2015-2016\\ 
+	Greater Vancouver Regional Science Fair DAWEG Award (\$100) & 2010\\
+\end{tabular*}
+
+\section*{Conference Talks and Presentations}
+
+\begin{itemize}
+\item
+\ressubheading{Thermodynamic and transport properties of SmCuAs$_2$ single crystal
+}{}{\textbf{S. Huang} and E. Mun}{Jan 17, 2020} 
+\begin{itemize} 
+\resitem{Oral presentation at the Canadian Conference for Undergraduate Women in Physics (CCUWiP), University
+of Toronto.}
+\end{itemize}
+\item
+\ressubheading{Milling through Si Membranes: A Helium Ion Microscopy Experiment}{}{\textbf{S. Huang} and K. L. Kavanagh}{Jan 20, 2019} 
+\begin{itemize} 
+\resitem{Oral presentation at the CCUWiP, University
+of Ottawa.}
+\end{itemize}
+ 
+\item 
+\ressubheading{Transmission Helium Ion
+Microscropy: Milling Analysis}{}{\textbf{S. Huang}, J. Wang, and K. L. Kavanagh}{Aug 18, 2017} 
+\begin{itemize} 
+\resitem{Poster presentation at the Physics Undergraduate Conference, University
+of British Columbia.} 
+
+\end{itemize}
+\end{itemize}
+
+
+\section*{Leadership And Outreach}
+\begin{itemize} 
+
+\item
+\ressubheading{SFU Peer Education}{}{Senior Peer Coach}{Aug 2017 - Apr 2018}
+\begin{itemize}
+\resitem{Trained a group of 20 Peer Educators in preparation for a coaching role. Delivered the training through a 5 hour in-person workshop and online Canvas course each semester.}
+\resitem{Scheduled meetings with 5 coaches, each 3 times individually during the term, to work towards their professional development. Active listening, collaborative questioning and goal setting were employed to strategize and achieve progress in personal growth.} 
+\resitem{Carried out monthly appreciation events for the peer coaches and peer volunteers which facilitated networking and de-stressing.}	
+\end{itemize}
+	
+\item
+\ressubheading{Physics Department Outreach Video}{}{Featured Student Representative}{Nov 2017}
+\begin{itemize}
+\resitem{Featured in one of three Department Outreach Videos created, of one minute in length. Video posted on department website \video.} 
+\resitem{Articulated my passion and interest in physics and was selected because of my involvement in the physics community.}
+\end{itemize}
+	
+\item
+\ressubheading{SFU Outreach Events}{}{Invited Speaker}{Jan 2017 - Sept 2019}
+\begin{itemize}	
+\resitem{Presented my advice and experiences on outreach panels as an invited speaker at SFU Open House 2017 (200 students), and Let's Talk Science's Physics Career Day (50 students) for high school students.} 
+\resitem{Gave a 20 minute talk on my volunteer experiences at the Physics Undergraduate Seminar for a group of 30 undergraduates (three years in a row).}
+	
+\end{itemize}	
+	
+\end{itemize}
+
+\section*{Teaching Experience}
+
+\begin{itemize}
+\item
+\ressubheading{SFU Peer Education}{}{Coach and Tutor}{Jan 2016 - May 2017}
+\begin{itemize}
+\resitem{Explained first year physics and chemistry concepts to students in weekly open lab hours. Worked with an average of 3-4 students every week. Received an accolade from the supervisor.}
+\resitem{Organized meetings for Peer Educators to work towards personal development and ensured that students had support in their endeavours.}
+\end{itemize}
+
+\end{itemize}
+
+\section*{Interests and Hobbies}
+
+\begin{itemize}
+\item
+\ressubheading{Violin Teacher}{}{Private}{Jan 2018 - Present}
+\begin{itemize}
+\resitem{Preparing students for practical RCM exams.}
+\end{itemize}
+
+\item
+\ressubheading{Violinist}{}{Double String Quartet}{September 2019}
+\begin{itemize}
+\resitem{Was paid to rehearse and perform in a double string quartet to accompany the band at a charity concert (Rotary Pops concert). I also performed with the group for an hour-long performance at TaiwanFest during that time.}
+\end{itemize}
+
+
+
+\end{itemize}
+
+
+\end{document}
