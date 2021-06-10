@@ -1,5 +1,7 @@
 ---
-# Only the big Sass file needs front matter
+# Only the main Sass file needs front matter
 ---
 
-@import "{{ site.jekyll-theme-time-machine }}";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
