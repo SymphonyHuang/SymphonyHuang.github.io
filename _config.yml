@@ -32,7 +32,7 @@ twitter_username: HuangSymphony
 github_username:  SymphonyHuang
 
 # Build settings
-theme: jekyll-theme-time-machine
+theme: minima
 plugins:
   - jekyll-feed
 
